@@ -221,9 +221,9 @@ div#pizza-opcoes-mestre {
 }
 
 div.pizza-opcoes {
-    width: 33.3%;
+    width:33.3%;
     text-align: center;
-    margin: 5px 0;
+    margin:5px 0;
 }
 
 section#testemunha {
@@ -362,10 +362,11 @@ section#testemunha div#testemunha-centro div#testemunhos ul img {
     justify-content: center;
 }
 
-.planos {
-    width: 250px;
+div.planos {
+    width:250px;
     height: 450px;
     margin: 80px 30px;
+    opacity: 0;
 }
 
 .planos-top {
@@ -409,18 +410,20 @@ footer {
     justify-content: space-between;
 }
 
-footer #mapa {
+footer div#mapa {
     width: 35%;
     height: 390px;
     background-color: rgba(255,255,255,1);
     box-shadow: 0 3px 10px #404040;
+    opacity: 0;
 }
 
-footer #info {
+footer div#info {
     width: 30%;
     height: 390px;
-    background-color: #f03733;
+    background-color: #F03733 ;
     box-shadow: 0 3px 10px #404040;
+    opacity: 0;
 }
 
 footer #redes-sociais {
@@ -444,10 +447,11 @@ footer #redes-sociais ion-icon:hover {
     transition-duration: 0.3s;
 }
 
-footer #pizza-rodape-decoracao {
+footer div#pizza-rodape-decoracao {
     width: 300px;
     height: 390px;
-    margin-top: -100px;
-    background-image: url("../img/secao15-pizza-rodape.png");
+    margin-top:-100px;
+    background-image: url(../img/secao15-pizza-rodape.png);
     background-repeat: no-repeat;
+    opacity: 0;
 }

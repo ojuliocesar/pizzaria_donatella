@@ -23,6 +23,7 @@ h1 {
 h2 {
     font-size: 400%;
     font-weight: 200;
+    padding: 40px;
 }
 
 h4 {    
@@ -111,8 +112,9 @@ div.pontos-chaves h4:after {
 /* SEÇÃO - PIZZA */
 
 section#pizza p.destaque {
-    color: #FFF;
+    color:#FFF;
     width: 40%;
+    opacity: 0;
 }
 
 section#pizza ul li {
